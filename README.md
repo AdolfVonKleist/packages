@@ -7,8 +7,12 @@ speedup or test projects that depend on them.
 Prebuild binary packages are stored in Git LFS and will not be downloaded on checkout
 by default. To download a specific debian package:
 ```bash
+# Retrieve the binary from Git LFS
 $ git lfs fetch --exclude "" --include Ubuntu-16.04/debs/openfst_1.6.2_amd64-xenial.deb
 $ git lfs checkout Ubuntu-16.04/debs/openfst_1.6.2_amd64-xenial.deb
+# Install the package
+$ sudo dpkg -i Ubuntu-16.04/debs/openfst_1.6.2_amd64-xenial.deb
+ ...
 ```
 
 ## Dependencies
@@ -16,6 +20,9 @@ These package building scripts rely rely on FPM:
   * https://github.com/jordansissel/fpm
 
 ## Package List
+### OpenFst
+OpenFst packages are compiled with all available core extensions.  See the individual Makefiles for details.
+Note that 'core extensions' does not include the Python bindings (```--enable-python```).
   * OpenFst v1.4.1 (Xenial)
   * OpenFst v1.5.1 (Xenial)
   * OpenFst v1.6.1 (Xenial)
