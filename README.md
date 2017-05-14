@@ -4,8 +4,12 @@ The packages and package building scripts are all unofficial, but may be useful 
 speedup or test projects that depend on them.
 
 ## Prebuilt Binaries
-Prebuild binary packages are stored in Git LFS:
-  * 
+Prebuild binary packages are stored in Git LFS and will not be downloaded on checkout
+by default. To download a specific debian package:
+```bash
+$ git lfs fetch --exclude "" --include Ubuntu-16.04/debs/openfst_1.6.2_amd64-xenial.deb
+$ git lfs checkout Ubuntu-16.04/debs/openfst_1.6.2_amd64-xenial.deb
+```
 
 ## Dependencies
 These package building scripts rely rely on FPM:
