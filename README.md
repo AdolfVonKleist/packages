@@ -19,7 +19,7 @@ $ sudo dpkg -i Ubuntu-16.04/debs/openfst_1.6.2_amd64-xenial.deb
 ```
 
 ## Dependencies
-These package building scripts rely rely on FPM:
+These package building scripts rely on FPM for package scripting:
   * https://github.com/jordansissel/fpm
 
 ## Package List
