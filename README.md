@@ -26,10 +26,10 @@ These package building scripts rely rely on FPM:
 ### OpenFst
 OpenFst packages are compiled with all available core extensions.  See the individual Makefiles for details.
 Note that 'core extensions' does not include the Python bindings (```--enable-python```).
-  * OpenFst v1.4.1 (Xenial)
-  * OpenFst v1.5.1 (Xenial)
-  * OpenFst v1.6.1 (Xenial)
-  * OpenFst v1.6.2 (Xenial)
+  * [OpenFst v1.4.1](http://www.openfst.org/twiki/pub/FST/FstDownload/openfst-1.4.1.tar.gz) (Xenial)
+  * [OpenFst v1.5.1](http://www.openfst.org/twiki/pub/FST/FstDownload/openfst-1.5.1.tar.gz) (Xenial)
+  * [OpenFst v1.6.1](http://www.openfst.org/twiki/pub/FST/FstDownload/openfst-1.6.1.tar.gz) (Xenial)
+  * [OpenFst v1.6.2](http://www.openfst.org/twiki/pub/FST/FstDownload/openfst-1.6.2.tar.gz) (Xenial)
 
 ## Build
 The supported packages can be rebuilt from scratch using the included scripts,
