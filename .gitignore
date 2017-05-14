@@ -1,0 +1,8 @@
+*~
+*.o
+*.so
+*.pyc
+Ubuntu-16.04/openfst-1.4.1-pkg/openfst*
+Ubuntu-16.04/openfst-1.5.1-pkg/openfst*
+Ubuntu-16.04/openfst-1.6.1-pkg/openfst*
+Ubuntu-16.04/openfst-1.6.2-pkg/openfst*
